@@ -19,9 +19,13 @@ Regarding the position, it must be inputted at latitude and longitude altitude.(
 For speed, input it in the North, East and Down direction coordinate system at that latitude, longitude and altitude.(NED)
 
 ## IIP class constractor
+
+```python
 IIP(np.array([latitude, longitude, altitude]), np.array([North, East, Down]))
+```
 
 The first argument is the position in the LLH coordinate system [deg, deg, m]
+
 The second argument is the speed in the NED coordinate system [m/s, m/s, m/s]
 
 ## Refarence
@@ -33,9 +37,10 @@ Young-Woo Nam, Taehyun Seong, and Jaemyung Ahn.  "Adjusted Instantaneous Impact 
 https://doi.org/10.2514/1.A33424
 
 ## Conception of name
-Jules Verne(From_the_Earth_to_the_Moon)
-https://en.wikipedia.org/wiki/Jules_Verne
-https://en.wikipedia.org/wiki/From_the_Earth_to_the_Moon
+[Jules Verne](https://en.wikipedia.org/wiki/Jules_Verne) ([From_the_Earth_to_the_Moon](https://en.wikipedia.org/wiki/From_the_Earth_to_the_Moon))
+
+
+
 
 ## License
 OpenVerne is an Open Source project licensed under the MIT License
