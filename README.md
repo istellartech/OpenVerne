@@ -32,5 +32,10 @@ https://doi.org/10.2514/1.56395
 Young-Woo Nam, Taehyun Seong, and Jaemyung Ahn.  "Adjusted Instantaneous Impact Point and New Flight Safety Decision Rule", Journal of Spacecraft and Rockets, Vol. 53, No. 4 (2016), pp. 766-773.
 https://doi.org/10.2514/1.A33424
 
+## Conception of name
+Jules Verne(From_the_Earth_to_the_Moon)
+https://en.wikipedia.org/wiki/Jules_Verne
+https://en.wikipedia.org/wiki/From_the_Earth_to_the_Moon
+
 ## License
 OpenVerne is an Open Source project licensed under the MIT License
