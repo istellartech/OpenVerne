@@ -7,9 +7,22 @@ is defined as its touchdown point(altitude=0[m]) assuming a free-fall flight (wi
 The IIP is considered as a very important information for safe launch operation of a rocket.
 
 ロケットの瞬間落下地点（IIP : Instantaneous Impact Point)を計算できるスクリプト
+緯度[deg]経度[deg]高度[m]と北方向速度[m/s]東方向速度[m/s]鉛直下方向速度[m/s]を入力すると
+IIPの座標が出力される。
 
 ## Usage
 see example(example_xx.py in this repository).
+
+## Coordinate
+Regarding the position, it must be inputted at latitude and longitude altitude.(LLH)
+
+For speed, input it in the North, East and Down direction coordinate system at that latitude, longitude and altitude.(NED)
+
+## IIP class constractor
+IIP(np.array([latitude, longitude, altitude]), np.array([North, East, Down]))
+
+The first argument is the position in the LLH coordinate system [deg, deg, m]
+The second argument is the speed in the NED coordinate system [m/s, m/s, m/s]
 
 ## Refarence
 Jaemyung Ahn and Woong-Rae Roh.  "Noniterative Instantaneous Impact Point Prediction Algorithm for Launch Operations",
